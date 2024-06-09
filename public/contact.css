@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+header .container-fluid .navbar-brand{
+    padding-left:80px ;
+}
+header .container-fluid .navbar-brand img{
+    height: 44px;
+}
+header .container-fluid #navbarNav{
+  
+    justify-content: space-around;
+    align-items: center;
+}
+header .container-fluid #navbarNav .btn{
+    font-weight: 500;
+    background-color: #ebebeb;
+    color: black;
+    padding: 6px 25px;
+}
+header .container-fluid .navbar-nav{
+    margin-left: 90px;
+}
+header .container-fluid .navbar-nav .nav-item a{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+}
+header .container-fluid .navbar-nav .nav-item #yellow{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #f39b00;
+}
+header .container-fluid .navbar-nav .nav-item a:hover{
+    color: #f39b00;
+
+}
+.aboutus{
+    padding: 95px 0 110px;
+    background: url(./Img/16.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.aboutus h2{
+   padding-left: 21px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.aboutus ul{
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.aboutus ul li a{
+    text-decoration: none;
+    color: #f39b00;
+
+}
+.aboutus ul li{
+    padding: 10px;
+    color: white;
+}
+.aboutus ul li a:hover{
+    color: white;
+    
+}
+.contacts{
+    padding: 100px 0px;
+}
+.contacts h3{
+    padding-right: 426px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contacts p{
+    text-align: center;
+    padding-right: 452px;
+    color: #9b9b9b;
+}
+.contacts .col-md-8 form #Name{
+    margin: 10px;
+    width: 320px;
+    padding: 14px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+}
+.contacts .col-md-8 form #Phone{
+    margin: 10px;
+    width: 320px;
+    padding: 14px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+}
+.contacts .col-md-8 form #Text{
+    margin: 10px;
+    padding: 14px;
+    width: 665px;
+    height: 142px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+}
+.contacts .col-md-8 form #Email{
+    margin: 10px;
+    width: 320px;
+    padding: 14px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+}
+.contacts .col-md-8 form .btn{
+    margin: 10px;
+    width: 320px;
+    padding: 14px;
+    color: white;
+    background-color: #f39b00;
+    border: none;
+    border-radius: 10px;
+
+}
+.contacts .col-md-8 form .btn:hover{
+background-color: black;
+}
+.contacts .col-md-4 .i{
+    display: flex;
+}
+.contacts .col-md-4 .i i{
+    color: #f39b00;
+    padding-right: 10px;
+}
+.contacts .col-md-4 h4{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.contacts .col-md-4 h6{
+    margin-bottom: 41px;
+    font-weight: 300;
+}
+
+.footor{
+    background-color: #232323;
+    
+
+}
+
+
+.footor .container-fluid #navbarNav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: inherit;
+    padding: 64px 104px 50px;
+}
+
+.footor .container-fluid .navbar-nav .nav-item a{
+   font-weight: 500;
+    padding: 17px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+   
+    color: white;
+}
+
+.footor .container-fluid .navbar-nav .nav-item a:hover{
+    color: #f39b00;
+
+}
+.footor .last{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-right: 136px;
+
+}
+.footor .last h4{
+    transition: transform .2s;
+    padding-top: 20px;
+    padding-left: 88px;
+    font-size: 17px;
+    color: white;
+}
+.footor .last h4:hover{
+    color: #f39b00;
+}
+.footor .last h6{
+    padding-right: 14px;
+    padding-top: 20px;
+    color: white;
+
+}
+.footor .last h6:hover{
+    color: #f39b00;
+}
+.footor .last ul{
+    display: flex;
+}
+.footor .last ul li{
+
+    margin: 10px;
+    border: 1px solid white;
+    padding: 5px 14px;
+}
+.footor .last ul li:hover{
+    background-color: #f39b00;
+}
+.footor .last ul li a{
+    font-size: 12px;
+ 
+  
+    color: white;
+}
+.footor .top{
+    padding-bottom: 40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: right;
+}
+.footor .top .uparrow{
+   
+    border: none;
+    border-radius: 10px;
+    background-color: #f39b00;
+    padding: 10px 16px;
+
+}
+.footor .top .uparrow a i{
+    color: white;
+}
+.loader-page {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .5s ease-out;
+}
+.loader-container {
+    /* border: 1px solid steelblue; */
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    width: 500px;
+    height: 5px;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+}
+.loader-fill {
+    background-color: steelblue;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+}
+.loader-counter {
+    position: absolute;
+    font-size: 5rem;
+    font-family: 'Lato' ;
+    font-weight: 300;
+    letter-spacing: -5px;
+    color: steelblue;
+    z-index: 9;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+header{
+    position: unset;
+    width: inherit;
+}
+.aboutus {
+    padding: 24px 0 5px;
+}
+.contacts {
+    padding: 20px 0px;
+}
+.contacts h3 {
+    padding-right: inherit;
+    margin-bottom: inherit;
+}
+.contacts p {
+    padding-right: inherit;
+    padding-top: 10px;
+}
+.contacts .col-md-8 form #Name {
+    width: 280px; 
+}
+.contacts .col-md-8 form #Phone {
+    width: 280px; 
+}
+.contacts .col-md-8 form #Email {
+    width: 280px;
+}
+.contacts .col-md-8 form .btn {
+    width: 280px;
+}
+.contacts .col-md-8 form #Text {
+    width: 280px;
+}
+.contacts .col-md-4{
+    padding-left: 22px;
+    padding-top: 20px;
+}
+.footor .container-fluid #navbarNav {
+    padding: 10px 10px;
+}
+.footor .last h4 {
+    transition: transform .2s;
+   
+    padding-left: 34px;
+    font-size: 14px;
+    color: white;
+}
+.footor .last ul li {
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 14px;
+}
+
+.footor .last {
+    display: block;
+}
+}
